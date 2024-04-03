@@ -11,6 +11,7 @@
 
 html{
     box-sizing: border-box;
+    
 }
 
 *,
@@ -89,6 +90,8 @@ img{
 
 
 #contact {
+    scroll-behavior: smooth;
+
     width: 400px;
     text-align: center;
     margin: 0 auto;
@@ -170,6 +173,8 @@ nav [class*="fa-"]:hover{
 
 /*project section*/
 #projects{
+    scroll-behavior: smooth;
+
     padding: 4rem 1rem;
 }
 
